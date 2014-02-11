@@ -121,9 +121,6 @@ body {
     width: 236px;
     height: 380px;
 }
-.content-image {
-    overflow: hidden;
-}
 .arrow-images {
     background-color: transparent;
     border: none;
@@ -140,8 +137,6 @@ body {
     float: left;
     background-color: transparent;
     border-radius: 2px;
-    overflow: hidden;
-
 }
 .bookmark-button img {
     float: left;
