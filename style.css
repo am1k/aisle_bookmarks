@@ -460,7 +460,7 @@ body {
     padding-top: 15px;
     margin-top: 19px;
 }
-@media  (min--width: 821px) {
+@media only screen and (max-width: 900px) and ( min-width: 821px) {
     #wrapper  {
         width: 100%;
         margin: 0 auto;
@@ -509,7 +509,7 @@ body {
         float: left;
     }
 }
-@media  (min-width:640px) {
+@media only screen and (max-width: 820px) and ( min-width:640px) {
     #wrapper  {
         width: 100%;
         margin: 0 auto;
