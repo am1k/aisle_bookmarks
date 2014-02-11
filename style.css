@@ -129,12 +129,10 @@ body {
     position: relative;
 }
 .bookmark-button {
-    background-image: url("img/overlay-bar.png");
-    width: 236px;
-    height: 40px;
-    margin-top: -40px;
+    height: 100px;
     display: none;
-    float: left;
+    float: right;
+    margin: 135px 110px 0 0;
     background-color: transparent;
     border-radius: 2px;
 }
@@ -462,7 +460,7 @@ body {
     padding-top: 15px;
     margin-top: 19px;
 }
-@media only screen and (max-width: 900px)and ( min-width: 821px) {
+@media  (min--width: 821px) {
     #wrapper  {
         width: 100%;
         margin: 0 auto;
@@ -511,7 +509,7 @@ body {
         float: left;
     }
 }
-@media only screen and (max-width: 820px) and ( min-width:640px) {
+@media  (min-width:640px) {
     #wrapper  {
         width: 100%;
         margin: 0 auto;
